@@ -2,7 +2,7 @@ import React from "react";
 
 // Opção 1
 
-// const Title = props => <h1>Olâ {`${props.nome} ${props.lastName}`}</h1>;
+const Title2 = props => <h1>Olâ {`${props.nome} ${props.lastName}`}</h1>;
 
 // Opção 2
 

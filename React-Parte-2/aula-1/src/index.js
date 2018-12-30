@@ -1,13 +1,11 @@
 // Entrada principal da Aplicação
 
-import App from "./app";
-
 import React from "react";
-
+import { render } from "react-dom";
 import { AppContainer } from "react-hot-loader";
 // Tudo que estiver sendo renderizado dentro desse componente será feito a atualização com base no hot-loader
 
-import { render } from "react-dom";
+import App from "./app";
 
 const renderApp = NextApp => {
   render(
